@@ -1,9 +1,6 @@
 # Group5_IntegratedProject_BME_HKU_2021
 Welcome to join Group 5 in BMED3010 Integrated Project 2021 in HKU! It is never late to communicate!
 
-## Market Explore:
-- [Pulse Oximeter Market Explore](https://docs.google.com/document/d/1b5M3Q2im2mUJWRe2YElaweMMvVu71oY1AcGlVFhjpGw/edit?usp=sharing)
-
 ## Starter Info links:
 
 ### Github intro
