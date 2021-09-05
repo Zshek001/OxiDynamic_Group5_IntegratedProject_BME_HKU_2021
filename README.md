@@ -7,7 +7,6 @@ Welcome to join Group 5 in BMED3010 Integrated Project 2021 in HKU! It is never 
 - [Github Hello-World](https://guides.github.com/activities/hello-world/) 
 
 ### Electronic Basics
-- [Electronic Basics #4: Arduino+Bluetooth+Android=Awesome](https://www.youtube.com/watch?v=x3KAXjnP06o&list=PLAROrg3NQn7cyu01HpOv5BWo217XWBZu0&index=48)
 - [Electronic Basics #5: How to Multiplex](https://www.youtube.com/watch?v=uQMUPhyoXoE&list=PLAROrg3NQn7cyu01HpOv5BWo217XWBZu0&index=45)
 - [Electronic Basics #8: Everything about LEDs and current limiting resistors](https://www.youtube.com/watch?v=Qlayua3yjuE&list=PLAROrg3NQn7cyu01HpOv5BWo217XWBZu0&index=42)
 - [Electronic Basics #10: Digital to Analog Converter (DAC)](https://www.youtube.com/watch?v=Y2OPnrgb0pY&list=PLAROrg3NQn7cyu01HpOv5BWo217XWBZu0&index=40)
@@ -24,6 +23,7 @@ Welcome to join Group 5 in BMED3010 Integrated Project 2021 in HKU! It is never 
 Video Tutorials:
 - [Arduino Basics 101: Hardware Overview, Fundamental Code Commands](https://www.youtube.com/watch?v=BtLwoNJ6klE)
 - [Arduino Basics 102: Control Structures, Variables, Interrupts](https://www.youtube.com/watch?v=YT3birSKLLU)
+- [Arduino+Bluetooth+Android=Awesome](https://www.youtube.com/watch?v=x3KAXjnP06o&list=PLAROrg3NQn7cyu01HpOv5BWo217XWBZu0&index=48)
 
 Official Docs:
 - [Arduino Guide](https://www.arduino.cc/en/Guide) 
