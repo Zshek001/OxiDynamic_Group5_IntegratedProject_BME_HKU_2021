@@ -5,6 +5,7 @@ Welcome to join Group 5 in BMED3010 Integrated Project 2021 in HKU! It is never 
 
 ### Github intro
 - [Github Hello-World](https://guides.github.com/activities/hello-world/) 
+- [About Branches](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-branches)
 
 ### Electronic Basics
 - [Electronic Basics #16: Resistors](https://www.youtube.com/watch?v=7w5I-KbJ1Sg&list=PLAROrg3NQn7cyu01HpOv5BWo217XWBZu0&index=34)
