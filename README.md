@@ -35,3 +35,6 @@ Official Docs:
 
 ### MATLAB intro
 - [Signal Processing Toolbox intro](https://www.mathworks.com/help/signal/getting-started-with-signal-processing-toolbox.html)
+
+## Datasheets
+- [MAX30102](https://pdf1.alldatasheet.com/datasheet-pdf/view/859400/MAXIM/MAX30102.html)
