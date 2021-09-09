@@ -33,7 +33,7 @@ Official Docs:
 - [Library Examples](https://www.arduino.cc/en/Tutorial/LibraryExamples)
 - [Arduino Projecthub](https://create.arduino.cc/projecthub)
 
-### MATLAB intro
+### MATLAB signal processing
 - [Signal Processing Toolbox intro](https://www.mathworks.com/help/signal/getting-started-with-signal-processing-toolbox.html)
 - [Signal Analyzer App](https://www.mathworks.com/help/signal/ug/using-signal-analyzer-app.html)
 - [Filtering with MATLAB intro](https://www.mathworks.com/help/signal/ug/filtering-data-with-signal-processing-toolbox.html#FilteringDataWithSignalProcessingToolboxSoftwareExample-2)
