@@ -35,6 +35,16 @@ Official Docs:
 
 ### MATLAB intro
 - [Signal Processing Toolbox intro](https://www.mathworks.com/help/signal/getting-started-with-signal-processing-toolbox.html)
+- [Signal Analyzer App](https://www.mathworks.com/help/signal/ug/using-signal-analyzer-app.html)
+- [Filtering with MATLAB intro](https://www.mathworks.com/help/signal/ug/filtering-data-with-signal-processing-toolbox.html#FilteringDataWithSignalProcessingToolboxSoftwareExample-2)
+- [Peak Analysis](https://www.mathworks.com/help/signal/ug/peak-analysis.html)
+- [Filter Design](https://www.mathworks.com/help/signal/filter-design.html)
+- [Filterbuilder design process](https://www.mathworks.com/help/signal/ug/filterbuilder-design-process.html)
+- [IIR filter design](https://www.mathworks.com/help/signal/ug/iir-filter-design.html)
+- [FIR filter design](https://www.mathworks.com/help/signal/ug/fir-filter-design.html)
+- [Filter implementation & analysis](https://www.mathworks.com/help/signal/ug/filter-implementation-and-analysis.html)
+- [IIR filter time-delay compensation](https://www.mathworks.com/help/signal/ug/compensate-for-the-delay-introduced-by-an-iir-filter.html)
+- [Machine Learning & Deep Learning for signals](https://www.mathworks.com/help/signal/machine-learning-and-deep-learning-for-signals.html)
 
 ## Datasheets
 - [MAX30102](https://pdf1.alldatasheet.com/datasheet-pdf/view/859400/MAXIM/MAX30102.html)
