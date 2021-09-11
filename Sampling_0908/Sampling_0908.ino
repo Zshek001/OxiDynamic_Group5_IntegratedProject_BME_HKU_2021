@@ -25,6 +25,8 @@ int detected_NIR = 0;//reading of PD for NIR signal//
 void setup() {
   // put your setup code here, to run once:
   Serial.begin(38400);
+  analogReadResolution(12);	//Range: 0 - 4095//
+  analogWriteResolution(12);
   //Setup the pinmode//
   pinMode(RED,OUTPUT);
   pinMode(NIR,OUTPUT);
