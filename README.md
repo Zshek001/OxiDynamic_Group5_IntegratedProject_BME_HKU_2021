@@ -38,6 +38,7 @@ Official Docs:
 - [Signal Analyzer App](https://www.mathworks.com/help/signal/ug/using-signal-analyzer-app.html)
 - [Filtering with MATLAB intro](https://www.mathworks.com/help/signal/ug/filtering-data-with-signal-processing-toolbox.html#FilteringDataWithSignalProcessingToolboxSoftwareExample-2)
 - [Peak Analysis](https://www.mathworks.com/help/signal/ug/peak-analysis.html)
+- [The filter() function](https://www.mathworks.com/help/matlab/ref/filter.html)
 - [Filter Design](https://www.mathworks.com/help/signal/filter-design.html)
 - [Filterbuilder design process](https://www.mathworks.com/help/signal/ug/filterbuilder-design-process.html)
 - [IIR filter design](https://www.mathworks.com/help/signal/ug/iir-filter-design.html)
