@@ -1,0 +1,182 @@
+/Define the mode of the oximeter/
+#define WAITING 0	//Waiting for finger//
+#define ADJUSTING 1	//Adjust the output voltage of LED//
+#define MEASURING 2	//Measure the pulse and blood oxygen//
+#define ERROR -1	//Loop for any error//
+
+//constant declaration//
+const int loop_frequency = 80;                     //loop frequency in Hz//
+const int waiting_frequency = 10;		//Light frequency in wating mode//
+const int loop_period = 1000000 / loop_frequency;  //loop period in us// 
+const int PDdelay = 3 * loop_period / 5;                     //delay time for PD response in us//
+
+const int Analog_MAX = 4095;	//Max Number for analogwrite and analogread//
+const float V_MAX = 3.3;		//Max Voltage//
+const int Hyper_Read = 3000;		//Standrad line to judge whether the analog read it avaliable//
+
+const int sampling_period = 2000000;	//Set the sampling period to 2s//
+const int N_RED = sampling_period / loop_frequency / 4; //The number of data for RED_LED in a period//
+const int N_NIR = sampling_period / loop_frequency / 4; //The number of data for NIR_LED in a period//
+
+// Pin declaration //
+const int RED = DAC0;  //Red LED//
+const int NIR = DAC1;  //NIR LED//
+const int PD = A0;  //photodetector//
+
+
+
+//Variable declaration//
+int i = 0;           //loop times//
+int j = 0;	     //Extra couter//
+int loop_start = 0;  //starting time of this loop//
+int loop_end = 0;    //ending time of this loop//
+int detected_RED = 0;//reading of PD for RED signal//
+int detected_NIR = 0;//reading of PD for NIR signal//
+int LED_Output = 4095;//Output range of LED (0 - 4095)
+
+//Decalre the array for store the sampling data and its pointer//
+int RED_Array[N_RED] = {};
+int NIR_Array[N_NIR] = {};
+int pointer_LED = 0;
+int pointer_NIR = 0;
+
+int mode = 0;		///Mode of the oximeter// 
+//int LED[2] = {0,0};
+
+//Function decalration//
+int WaitingForFinger();
+void PrintError();
+       
+
+void setup() {
+  // put your setup code here, to run once:
+  Serial.begin(38400);
+  //Setup the pinmode//
+  pinMode(RED,OUTPUT);
+  pinMode(NIR,OUTPUT);
+  pinMode(PD,INPUT);
+
+  //Setup the analog resolution//
+  analogReadResolution(12);	//Range: 0 - 4095//
+  analogWriteResolution(12);
+
+
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+    
+  loop_start = micros();  //Record the start time of the loop//
+
+//Start of the mode block//
+
+  //Waiting mode//
+  if(mode == WAITING){
+    if(WaitingForFinger() != 0){
+      PrintError();
+    }
+  }
+  else{ //adjusting and measuring mode//
+
+  //generate PD signal//
+  switch (i % 4){
+    case 0:
+    analogWrite(NIR, LED_Output / Analog_MAX);
+    //LED[0] = 1;
+    break;
+
+    case 1:
+    analogWrite(NIR,0);
+    //LED[0] = 0;
+    break;
+
+    case 2:
+    analogWrite(LED, LED_Output / Analog_MAX);
+    //LED[1] = 10;
+    break;
+
+    case 3:
+    analogWrite(RED,0);
+    //LED[1] = 0;
+    break;
+
+    default:
+    break;
+  }
+
+  //detect PD signal//
+   delayMicroseconds(loop_start + PDdelay - micros());
+    switch (i % 4){
+      case 0:
+      detected_NIR = analogRead(PD);
+      //detected_NIR = LED[0] + LED[1];
+      break;
+
+      case 2:
+      detected_RED = analogRead(PD);
+      //detected_RED = LED[1] + LED[0];
+      break;
+      
+      default:
+      break;
+    }
+    
+//Test for outputing//
+  Serial.print(detected_NIR);
+  Serial.print(' ');
+  Serial.println(detected_RED);
+
+//Adjust the output voltage//
+  if(mode == ADJUSTING && detected_RED >= Hyper_Read){
+    LED_Output -= 10;
+  }
+  else if(mode == ADJUSTING && detected_RED < Hyper_Read){
+    mode = MEASURING;
+  }
+
+//Detect whether the finger leaves//
+  if(mode == MEASURING){
+    if(detected_RED >= Hyper_Read){
+      j++;
+    }
+    else{
+      j = 0;
+    }
+    if(j >= 1000){
+      mode = WAITING;
+      j = 0;
+    }
+  }
+
+
+}
+//End of the Mode block//
+
+  //delay to fix the loop time//
+  i++;
+  loop_end = micros();
+  if(loop_start + loop_period - loop_end > 0) delayMicroseconds(loop_start + loop_period - loop_end);
+  else Serial.println("Error");
+}
+
+int WaitingForFinger(){
+  if(i % waiting_frequency == 0 ){  
+    AnalogWrite(RED, Analog_MAX / 2); //Turn on the NIR_LED under low voltage//
+    
+   }
+    //If the detected light is lower then the standard line, change to measuring mode//
+    delayMicroseconds(loop_start + PDdelay - micros());
+    detected_RED = analogRead(PD);
+
+    if(detected_RED <= Hyper_Read){
+      mode = ADJUSTING;
+    }
+    AnalogWrite(RED, 0);				//Turn off the LED//
+
+    return 0;
+}
+
+void PrintError(){
+  Serial.println("Error");
+  while(1){}
+}
