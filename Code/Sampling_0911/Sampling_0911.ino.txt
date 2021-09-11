@@ -34,11 +34,11 @@ int detected_RED = 0;//reading of PD for RED signal//
 int detected_NIR = 0;//reading of PD for NIR signal//
 int LED_Output = 4095;//Output range of LED (0 - 4095)
 
-//Decalre the array for store the sampling data and its pointer//
+//Decalre the array for store the sampling data and its curve//
 int RED_Array[N_RED] = {};
 int NIR_Array[N_NIR] = {};
-int pointer_LED = 0;
-int pointer_NIR = 0;
+int REDcur = 0;
+int NIRcur = 0;
 
 int mode = 0;		///Mode of the oximeter// 
 //int LED[2] = {0,0};
