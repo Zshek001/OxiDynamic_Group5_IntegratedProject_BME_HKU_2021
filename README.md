@@ -48,5 +48,14 @@ Official Docs:
 - [IIR filter time-delay compensation](https://www.mathworks.com/help/signal/ug/compensate-for-the-delay-introduced-by-an-iir-filter.html)
 - [Machine Learning & Deep Learning for signals](https://www.mathworks.com/help/signal/machine-learning-and-deep-learning-for-signals.html)
 
+## Literature
+
+### Probe Design
+- [Design of a finger base-type pulse oximeter](https://aip.scitation.org/doi/10.1063/1.4940237)
+
+### Filtering
+-[An optimal filter for short photoplethysmogram signals](https://www.nature.com/articles/sdata201876)
+-[Optimal filter bandwidth for pulse oximetry](https://pubmed.ncbi.nlm.nih.gov/23126791/)
+
 ## Datasheets
 - [MAX30102](https://pdf1.alldatasheet.com/datasheet-pdf/view/859400/MAXIM/MAX30102.html)
