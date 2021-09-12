@@ -50,8 +50,12 @@ Official Docs:
 
 ## Literature
 
-### Probe Design
+### System Design
 - [Design of a finger base-type pulse oximeter](https://aip.scitation.org/doi/10.1063/1.4940237)
+- [A Single-Chip CMOS Pulse Oximeter with On-Chip Lock-In Detection](https://www.mdpi.com/1424-8220/15/7/17076/htm)
+- [Design and Development of a Modular, Multichannel Photoplethysmography System](https://ieeexplore.ieee.org/abstract/document/8318902)
+- [3D Printing Silicone Elastomer for Patient-Specific Wearable Pulse Oximeter](https://onlinelibrary.wiley.com/doi/10.1002/adhm.201901735)
+- [A Prototype of Reflection Pulse Oximeter Designed for Mobile Healthcare](https://ieeexplore.ieee.org/abstract/document/7210130)
 
 ### Filtering
 - [An optimal filter for short photoplethysmogram signals](https://www.nature.com/articles/sdata201876)
