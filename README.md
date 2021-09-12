@@ -2,8 +2,7 @@
 Welcome to join Group 5 in BMED3010 Integrated Project 2021 in HKU! It is never late to communicate!
 ## Starter Info links
 
-### Github intro
-<details><summary>CLICK ME</summary>
+<details><summary>Github intro</summary>
 <p>
   
 - [Github Hello-World](https://guides.github.com/activities/hello-world/) 
@@ -12,8 +11,7 @@ Welcome to join Group 5 in BMED3010 Integrated Project 2021 in HKU! It is never 
 </p>
 </details>
 
-### Electronic Basics
-<details><summary>CLICK ME</summary>
+<details><summary>Electronic Basics</summary>
 <p>
   
 - [Electronic Basics #16: Resistors](https://www.youtube.com/watch?v=7w5I-KbJ1Sg&list=PLAROrg3NQn7cyu01HpOv5BWo217XWBZu0&index=34)
@@ -30,8 +28,7 @@ Welcome to join Group 5 in BMED3010 Integrated Project 2021 in HKU! It is never 
 </p>
 </details>
 
-### Arduino intro
-<details><summary>CLICK ME</summary>
+<details><summary>Arduino intro</summary>
 <p>
   
 #### Video Tutorials:
@@ -49,9 +46,7 @@ Welcome to join Group 5 in BMED3010 Integrated Project 2021 in HKU! It is never 
 </p>
 </details>
 
-
-### MATLAB signal processing
-<details><summary>CLICK ME</summary>
+<details><summary>MATLAB signal processing</summary>
 <p>
   
 - [Signal Processing Toolbox intro](https://www.mathworks.com/help/signal/getting-started-with-signal-processing-toolbox.html)
