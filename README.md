@@ -5,6 +5,7 @@ Welcome to join Group 5 in BMED3010 Integrated Project 2021 in HKU! It is never 
 ### Github intro
 <details><summary>CLICK ME</summary>
 <p>
+  
 - [Github Hello-World](https://guides.github.com/activities/hello-world/) 
 - [About Branches](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-branches)
 
@@ -14,6 +15,7 @@ Welcome to join Group 5 in BMED3010 Integrated Project 2021 in HKU! It is never 
 ### Electronic Basics
 <details><summary>CLICK ME</summary>
 <p>
+  
 - [Electronic Basics #16: Resistors](https://www.youtube.com/watch?v=7w5I-KbJ1Sg&list=PLAROrg3NQn7cyu01HpOv5BWo217XWBZu0&index=34)
 - [Electronic Basics #8: Everything about LEDs and current limiting resistors](https://www.youtube.com/watch?v=Qlayua3yjuE&list=PLAROrg3NQn7cyu01HpOv5BWo217XWBZu0&index=42)
 - [Electronic Basics #22: Transistor (BJT) as a Switch](https://www.youtube.com/watch?v=WRm2oUw4owE&list=PLAROrg3NQn7cyu01HpOv5BWo217XWBZu0&index=28)
@@ -31,6 +33,7 @@ Welcome to join Group 5 in BMED3010 Integrated Project 2021 in HKU! It is never 
 ### Arduino intro
 <details><summary>CLICK ME</summary>
 <p>
+  
 #### Video Tutorials:
 - [Arduino Basics 101: Hardware Overview, Fundamental Code Commands](https://www.youtube.com/watch?v=BtLwoNJ6klE)
 - [Arduino Basics 102: Control Structures, Variables, Interrupts](https://www.youtube.com/watch?v=YT3birSKLLU)
@@ -50,6 +53,7 @@ Welcome to join Group 5 in BMED3010 Integrated Project 2021 in HKU! It is never 
 ### MATLAB signal processing
 <details><summary>CLICK ME</summary>
 <p>
+  
 - [Signal Processing Toolbox intro](https://www.mathworks.com/help/signal/getting-started-with-signal-processing-toolbox.html)
 - [Signal Analyzer App](https://www.mathworks.com/help/signal/ug/using-signal-analyzer-app.html)
 - [Filtering with MATLAB intro](https://www.mathworks.com/help/signal/ug/filtering-data-with-signal-processing-toolbox.html#FilteringDataWithSignalProcessingToolboxSoftwareExample-2)
