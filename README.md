@@ -86,7 +86,7 @@ Welcome to join Group 5 in BMED3010 Integrated Project 2021 in HKU! It is never 
 - [On the use of Wavelet Transform based Adaptive Filtering for de-noising of Pulse Oximeter signals](https://ieeexplore.ieee.org/abstract/document/9459833)
 - [A Novel Time-Varying Spectral Filtering Algorithm for Reconstruction of Motion Artifact Corrupted Heart Rate Signals During Intense Physical Activities Using a Wearable Photoplethysmogram Sensor](https://www.mdpi.com/1424-8220/16/1/10)
 - [Development of a Wearable Reflection-Type Pulse Oximeter System to Acquire Clean PPG Signals and Measure Pulse Rate and SpO2 with and without Finger Motion](https://www.mdpi.com/2079-9292/9/11/1905)
-- 
+
 #### Peak Detection:
 - [Near-Real-Time Detection of Pulse Oximeter PPG Peaks Using Wavelet Decomposition](https://www.sciencedirect.com/science/article/pii/S2405896318333688)
 
