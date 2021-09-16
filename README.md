@@ -76,7 +76,7 @@ Welcome to join Group 5 in BMED3010 Integrated Project 2021 in HKU! It is never 
 - [16-bit UUID Numbers Document](https://btprodspecificationrefs.blob.core.windows.net/assigned-values/16-bit%20UUID%20Numbers%20Document.pdf)
 
 ### Filter Implemetation
-- [ARM DirectForm II Filter Implemetation](https://github.com/ARM-software/CMSIS/blob/master/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_biquad_cascade_df1_f32.c)
+- [ARM floating-point Biquad cascade structure Implemetation (IIR DirectForm II SOS Matrix)](https://github.com/ARM-software/CMSIS/blob/master/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_biquad_cascade_df1_f32.c)
 
 ## Literature
 
