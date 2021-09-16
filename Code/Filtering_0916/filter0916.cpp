@@ -83,8 +83,8 @@ void filter_implement(
       /* Read the first input */
       Xn = *pIn++;
 
-      /* acc = b0 * Xn + b1 * x[n-1] + b2 * x[n-2] + a1 * y[n-1] + a2 * y[n-2] */
-      Yn2 = g * ((b0 * Xn) + (b1 * Xn1) + (b2 * Xn2)) + (a1 * Yn1) + (a2 * Yn2);
+      /* acc = b0 * Xn + b1 * x[n-1] + b2 * x[n-2] - a1 * y[n-1] - a2 * y[n-2] */
+      Yn2 = g * ((b0 * Xn) + (b1 * Xn1) + (b2 * Xn2)) - (a1 * Yn1) - (a2 * Yn2);
 
       /* Store the result in the accumulator in the destination buffer. */
       *pOut++ = Yn2;
@@ -98,8 +98,8 @@ void filter_implement(
       /* Read the second input */
       Xn2 = *pIn++;
 
-      /* acc = b0 * x[n] + b1 * x[n-1] + b2 * x[n-2] + a1 * y[n-1] + a2 * y[n-2] */
-      Yn1 = g * ((b0 * Xn2) + (b1 * Xn1) + (b2 * Xn1)) + (a1 * Yn2) + (a2 * Yn1); /* ??? */
+      /* acc = b0 * x[n] + b1 * x[n-1] + b2 * x[n-2] - a1 * y[n-1] - a2 * y[n-2] */
+      Yn1 = g * ((b0 * Xn2) + (b1 * Xn1) + (b2 * Xn1)) - (a1 * Yn2) - (a2 * Yn1); /* ??? */
 
       /* store the result to accumulator in target buffer */
       *pOut++ = Yn1;
@@ -113,8 +113,8 @@ void filter_implement(
       /* Read the third input */
       Xn1 = *pIn++;
 
-      /* acc = b0 * X[n] + b1 * x[n-1] + b2 * x[n-2] + a1 * y[n-1] + a2 * y[n-2] */
-      Yn1 = g * ((b0 * Xn) + (b1 * Xn1) + (b2 * Xn2)) + (a1 * Yn1) + (a2 * Yn2);
+      /* acc = b0 * X[n] + b1 * x[n-1] + b2 * x[n-2] - a1 * y[n-1] - a2 * y[n-2] */
+      Yn1 = g * ((b0 * Xn) + (b1 * Xn1) + (b2 * Xn2)) - (a1 * Yn1) - (a2 * Yn2);
 
       /* store the result to accumulator in target buffer */
       *pOut++ = Yn2;
@@ -129,8 +129,8 @@ void filter_implement(
       /* Read the forth input */
       Xn = *pIn++;
 
-      /* acc =  b0 * x[n] + b1 * x[n-1] + b2 * x[n-2] + a1 * y[n-1] + a2 * y[n-2] */
-      Yn1 = g * ((b0 * Xn) + (b1 * Xn1) + (b2 * Xn2)) + (a1 * Yn2) + (a2 * Yn1);
+      /* acc =  b0 * x[n] + b1 * x[n-1] + b2 * x[n-2] - a1 * y[n-1] - a2 * y[n-2] */
+      Yn1 = g * ((b0 * Xn) + (b1 * Xn1) + (b2 * Xn2)) - (a1 * Yn2) - (a2 * Yn1);
 
       /* Store the result in the accumulator in the destination buffer. */
       *pOut++ = Yn1;
@@ -149,8 +149,8 @@ void filter_implement(
       /* Read the input */
       Xn = *pIn++;
 
-      /* acc =  b0 * x[n] + b1 * x[n-1] + b2 * x[n-2] + a1 * y[n-1] + a2 * y[n-2] */
-      acc = g * ((b0 * Xn) + (b1 * Xn1) + (b2 * Xn2)) + (a1 * Yn1) + (a2 * Yn2);
+      /* acc =  b0 * x[n] + b1 * x[n-1] + b2 * x[n-2] - a1 * y[n-1] - a2 * y[n-2] */
+      acc = g * ((b0 * Xn) + (b1 * Xn1) + (b2 * Xn2)) - (a1 * Yn1) - (a2 * Yn2);
 
       /* Store the result in the accumulator in the destination buffer. */
       *pOut++ = acc;
