@@ -97,5 +97,5 @@ Welcome to join Group 5 in BMED3010 Integrated Project 2021 in HKU! It is never 
 - [MAX30102](https://pdf1.alldatasheet.com/datasheet-pdf/view/859400/MAXIM/MAX30102.html)
 
 ## BlueTooth
-- https://www.bluetooth.com/wp-content/uploads/Sitecore-Media-Library/Gatt/Xml/Services/org.bluetooth.service.pulse_oximeter.xml
-- https://btprodspecificationrefs.blob.core.windows.net/assigned-values/16-bit%20UUID%20Numbers%20Document.pdf
+- [pulse oximeter Bluetooth](https://www.bluetooth.com/wp-content/uploads/Sitecore-Media-Library/Gatt/Xml/Services/org.bluetooth.service.pulse_oximeter.xml)
+- [16-bit UUID Numbers Document](https://btprodspecificationrefs.blob.core.windows.net/assigned-values/16-bit%20UUID%20Numbers%20Document.pdf)
