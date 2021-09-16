@@ -4,7 +4,7 @@
 //constant declaration//
 const int loop_frequency = 80;                     //loop frequency in Hz//
 const int loop_period = 1000000 / loop_frequency;  //loop period in us//
-const int PDdelay = 7500;                     //delay time for PD response in us//
+const int PDdelay = loop_period / 2;                    //delay time for PD response in us//
 const int erase_period = 5000000;          //Clear the buffer and calculate for every 5 seconds//
 const int N_LEDarray = 200;                      //Length of the detected signal array//
 
