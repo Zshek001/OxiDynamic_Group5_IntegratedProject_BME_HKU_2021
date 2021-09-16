@@ -66,6 +66,18 @@ Welcome to join Group 5 in BMED3010 Integrated Project 2021 in HKU! It is never 
 </p>
 </details>
 
+## Datasheets
+- [MAX30102](https://pdf1.alldatasheet.com/datasheet-pdf/view/859400/MAXIM/MAX30102.html)
+
+## Arduino Utilities
+
+### BlueTooth
+- [pulse oximeter Bluetooth](https://www.bluetooth.com/wp-content/uploads/Sitecore-Media-Library/Gatt/Xml/Services/org.bluetooth.service.pulse_oximeter.xml)
+- [16-bit UUID Numbers Document](https://btprodspecificationrefs.blob.core.windows.net/assigned-values/16-bit%20UUID%20Numbers%20Document.pdf)
+
+### Filter Implemetation
+- [ARM DirectForm II Filter Implemetation](https://github.com/ARM-software/CMSIS/blob/master/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_biquad_cascade_df1_f32.c)
+
 ## Literature
 
 ### System Design
@@ -93,9 +105,3 @@ Welcome to join Group 5 in BMED3010 Integrated Project 2021 in HKU! It is never 
 #### *Machine Learning based Methods*:
 - [Robust PPG motion artifact detection using a 1-D convolution neural network](https://www.sciencedirect.com/science/article/abs/pii/S0169260720314292?via%3Dihub)
 
-## Datasheets
-- [MAX30102](https://pdf1.alldatasheet.com/datasheet-pdf/view/859400/MAXIM/MAX30102.html)
-
-## BlueTooth
-- [pulse oximeter Bluetooth](https://www.bluetooth.com/wp-content/uploads/Sitecore-Media-Library/Gatt/Xml/Services/org.bluetooth.service.pulse_oximeter.xml)
-- [16-bit UUID Numbers Document](https://btprodspecificationrefs.blob.core.windows.net/assigned-values/16-bit%20UUID%20Numbers%20Document.pdf)
