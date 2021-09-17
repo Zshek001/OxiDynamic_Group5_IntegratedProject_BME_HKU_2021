@@ -78,6 +78,9 @@ Welcome to join Group 5 in BMED3010 Integrated Project 2021 in HKU! It is never 
 ### Filter Implemetation
 - [ARM CMSIS floating-point Biquad cascade structure Implemetation (IIR DirectForm II SOS Matrix)](https://github.com/ARM-software/CMSIS/blob/master/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_biquad_cascade_df1_f32.c)
 
+### IDE Tips
+- [build, preprocessing, linker, compiler...](https://arduino.github.io/arduino-cli/0.19/sketch-build-process/)
+
 ## Literature
 
 ### System Design
