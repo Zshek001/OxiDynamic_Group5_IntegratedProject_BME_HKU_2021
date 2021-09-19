@@ -55,16 +55,15 @@ class Signal
     current = DirectFormIISOS(current, Coeffs_sample01, p_bx_Gain_sample01); //filter//
     putdata(current);  //put the filtered data into the buffer//
     int state = find_peak(LEDcur); //determine whether this cursor points at a peak or trough//
-    if(state == 1){ // if there is peak, calculate the period and the maximum//
+    if(state == 1 && current > (maximum + minimum) / 2){ // if there is peak, calculate the period and the maximum//
 
       maximum = adapt_max(current);
     }
-    else if(state = -1){//calculate minimum at trough//  
+    else if(state = -1 && current < (maximum + minimum) / 2){//calculate minimum at trough//  
       heartrate = find_period(LEDcur);
       minimum = adapt_min(current);
     }
-    else
-      return -1;
+
 
     return 0;
   }
