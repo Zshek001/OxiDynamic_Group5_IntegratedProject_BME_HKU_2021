@@ -56,7 +56,7 @@ float DirectFormIISOS(
 {
   int stage;
   float Xn, Yn;                //input & output for stages
-  float a1, a2, g, b0, b1, b2; //coefficients for stages
+  float b0, b1, b2, a1, a2, g; //coefficients for stages
   float Wn1 = 0, Wn2 = 0;      //middle variable w(n-1), w(n-2)
   float Wn0;                   //middle variable w(n)
 
