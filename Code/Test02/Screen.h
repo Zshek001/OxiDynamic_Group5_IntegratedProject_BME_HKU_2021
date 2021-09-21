@@ -14,7 +14,6 @@ void screen_init(){
 }
 
 void display_heartrate(int rate){
-    Serial.println(rate);
   tft.fillRect(0, 0, tft.width(),tft.height() / 2, ILI9341_BLACK);
   tft.setCursor(0, 0);
   tft.setTextSize(5);
