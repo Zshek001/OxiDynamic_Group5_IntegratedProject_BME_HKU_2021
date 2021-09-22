@@ -60,7 +60,7 @@ float Coeffs_sample01[numOrder] =
 
 
 
-float Xn_store[numOrderorder] = {};
+float Xn_store[numOrder] = {};
 
 float FIRfilter(
   float input,
