@@ -1,3 +1,7 @@
+//Lowpass, FIR Window, Order: 50
+//Window: Chebyshev, SA: 100
+//(Hz) Fs: 50, Fc: 6
+
 const int numOrder = 50;
 float Coeffs_sample01[numOrder] =
 {
