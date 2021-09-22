@@ -81,8 +81,14 @@ Welcome to join Group 5 in BMED3010 Integrated Project 2021 in HKU! It is never 
 ### IDE Tips
 - [build, preprocessing, linker, compiler...](https://arduino.github.io/arduino-cli/0.19/sketch-build-process/)
 
+## PPG pattern recognition
+- [Semi-supervised pattern recognition in PPG signals (python)](https://github.com/galkn/PPG-Pattern-Recognition)
+
 ## Literature
 
+<details><summary>Literature</summary>
+<p>
+  
 ### System Design
 - [Design of a finger base-type pulse oximeter](https://aip.scitation.org/doi/10.1063/1.4940237)
 - [A Single-Chip CMOS Pulse Oximeter with On-Chip Lock-In Detection](https://www.mdpi.com/1424-8220/15/7/17076/htm)
@@ -106,5 +112,7 @@ Welcome to join Group 5 in BMED3010 Integrated Project 2021 in HKU! It is never 
 - [Near-Real-Time Detection of Pulse Oximeter PPG Peaks Using Wavelet Decomposition](https://www.sciencedirect.com/science/article/pii/S2405896318333688)
 
 #### *Machine Learning based Methods*:
-- [Robust PPG motion artifact detection using a 1-D convolution neural network](https://www.sciencedirect.com/science/article/abs/pii/S0169260720314292?via%3Dihub)
+- [Robust PPG motion artifact detection using a 1-D convolution neural network](https://www.sciencedirect.com/science/article/abs/pii/S0169260720314292?via%3Dihub) 
 
+</p>
+</details>
