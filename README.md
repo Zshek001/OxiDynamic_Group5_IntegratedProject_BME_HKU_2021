@@ -102,11 +102,13 @@ Welcome to join Group 5 in BMED3010 Integrated Project 2021 in HKU! It is never 
 - [Optimal filter bandwidth for pulse oximetry](https://pubmed.ncbi.nlm.nih.gov/23126791/)
 
 #### Motion Artifacts:
+- [Human photoplethysmogram: new insight into chaotic characteristics](https://www.sciencedirect.com/science/article/pii/S0960077915001344)
 - [A Robust Motion Artifact Detection Algorithm for Accurate Detection of Heart Rates From Photoplethysmographic Signals Using Time–Frequency Spectral Features](https://ieeexplore.ieee.org/abstract/document/7605499)
 - [A Wearable Pulse Oximeter With Wireless Communication and Motion Artifact Tailoring for Continuous Use](https://ieeexplore.ieee.org/abstract/document/8486752)
 - [On the use of Wavelet Transform based Adaptive Filtering for de-noising of Pulse Oximeter signals](https://ieeexplore.ieee.org/abstract/document/9459833)
 - [A Novel Time-Varying Spectral Filtering Algorithm for Reconstruction of Motion Artifact Corrupted Heart Rate Signals During Intense Physical Activities Using a Wearable Photoplethysmogram Sensor](https://www.mdpi.com/1424-8220/16/1/10)
 - [Development of a Wearable Reflection-Type Pulse Oximeter System to Acquire Clean PPG Signals and Measure Pulse Rate and SpO2 with and without Finger Motion](https://www.mdpi.com/2079-9292/9/11/1905)
+
 
 #### Peak Detection:
 - [Near-Real-Time Detection of Pulse Oximeter PPG Peaks Using Wavelet Decomposition](https://www.sciencedirect.com/science/article/pii/S2405896318333688)
