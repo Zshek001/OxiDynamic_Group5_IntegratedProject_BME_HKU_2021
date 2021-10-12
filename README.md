@@ -66,6 +66,9 @@ Welcome to join Group 5 in BMED3010 Integrated Project 2021 in HKU! It is never 
 </p>
 </details>
 
+## SpO2 measurement
+- [GUIDELINES FOR SPO2 MEASUREMENT -maxim integrated](https://www.maximintegrated.com/en/design/technical-documents/app-notes/6/6845.html)
+
 ## Datasheets
 - [MAX30102](https://pdf1.alldatasheet.com/datasheet-pdf/view/859400/MAXIM/MAX30102.html)
 
